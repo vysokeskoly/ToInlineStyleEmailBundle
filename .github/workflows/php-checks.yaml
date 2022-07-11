@@ -28,6 +28,9 @@ jobs:
                 run: composer update --prefer-dist --no-progress
 
             # Check application
+            -   name: '[CHECK] lint'
+                run: composer lint
+
             -   name: '[CHECK] codestyle'
                 run: composer cs
 

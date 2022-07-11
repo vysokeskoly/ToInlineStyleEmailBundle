@@ -1,12 +1,16 @@
 ToInlineStyleEmailBundle
 ========================
 
+[![Latest Stable Version](https://img.shields.io/packagist/v/vysokeskoly/to-inline-style-email-bundle.svg)](https://packagist.org/packages/vysokeskoly/to-inline-style-email-bundle)
+[![License](https://img.shields.io/packagist/l/vysokeskoly/to-inline-style-email-bundle.svg)](https://packagist.org/packages/vysokeskoly/to-inline-style-email-bundle)
+[![PHP - Checks](https://github.com/vysokeskoly/ToInlineStyleEmailBundle/actions/workflows/php-checks.yaml/badge.svg)](https://github.com/vysokeskoly/ToInlineStyleEmailBundle/actions/workflows/php-checks.yaml)
+
 **ToInlineStyleEmailBundle** is a _Symfony2_ bundle to use the **CssToInlineStyles** translator by _Tijs Verkoyen_ (see
 https://github.com/tijsverkoyen/CssToInlineStyles for the repository)
 
 Requirements
 ============
-**ToInlineStyleEmailBundle** is only supported on **PHP 5.5** and up.
+**ToInlineStyleEmailBundle** is only supported on **PHP 8.1** and up.
 
 Installation
 ============
@@ -16,14 +20,14 @@ The following lines should be added in your ```composer.json```
 
 ``` json
 "require": {
-    "gushphp/to-inline-style-email-bundle": "~1.4.0"
+    "vysokeskoly/to-inline-style-email-bundle": "^3.0"
 },
 ```
 
 Then, register the bundle in your AppKernel by adding the following line:
 
 ``` php
-    new RobertoTru\ToInlineStyleEmailBundle\RobertoTruToInlineStyleEmailBundle(),
+    VysokeSkoly\ToInlineStyleEmailBundle\ToInlineStyleEmailBundle::class => ['all' => true],
 ```
 
 Documentation and Examples
