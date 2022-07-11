@@ -2,6 +2,8 @@
  
  <!-- There should always be "Unreleased" section at the beginning.-->
 ## Unreleased
+
+## 3.0.1 - 2022-07-11
 - Minor fixes like 
   - normalize composer.json
   - add fixup check
