@@ -2,6 +2,10 @@
  
  <!-- There should always be "Unreleased" section at the beginning.-->
 ## Unreleased
+- Minor fixes like 
+  - normalize composer.json
+  - add fixup check
+  - fix readme
 
 ## 3.0.0 - 2022-07-11
 - Allow Symfony 6
